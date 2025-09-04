@@ -3,3 +3,6 @@ es:
   products:
     index:
       title: "Productos"
+  products_mailer:
+    in_stock:
+      subject: "Alerta de stock"

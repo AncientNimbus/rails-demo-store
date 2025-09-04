@@ -32,3 +32,6 @@ en:
   products:
     index:
       title: "Products"
+  products_mailer:
+    in_stock:
+      subject: "Stock Alert"
