@@ -1,4 +1,8 @@
 # Rails 8 Demo Store
+
+This project focuses on exploring feature sets in Rails 8 and deployment workflow with SQLite3 as production DB.
+
+Currently deployed via [Hatchbox](https://hatchbox.io/)
 <!-- # README
 
 This README would normally document whatever steps are necessary to get the
