@@ -31,7 +31,7 @@ en:
   hello: "Hello world"
   products:
     index:
-      title: "Products"
+      title: "Demo Store v0.0.4"
   products_mailer:
     in_stock:
       subject: "Stock Alert"
