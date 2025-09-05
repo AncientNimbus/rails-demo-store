@@ -2,12 +2,15 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Hatchbox.io Deploy Action
-    - uses: actions/checkout@v4
-    - uses: hatchboxio/github-hatchbox-deploy-action@v2
-      with:
-        deploy_key: ${{ secrets.HATCHBOX_DEPLOY_KEY }}
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Hatchbox.io
+        uses: hatchboxio/github-hatchbox-deploy-action@v2
+        with:
+          deploy_key: ${{ secrets.HATCHBOX_DEPLOY_KEY }}
